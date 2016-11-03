@@ -101,3 +101,95 @@
 .content__top-nav__look-btn button > img {
     margin-right: 5px;
 }
+
+.content__products {
+    background-image: url("../img/product_fon.png");
+}
+
+.empty-block {
+    height: 30px;
+    background-image: url("../img/product_fon.png");
+}
+
+.advert-block {
+    width: 280px;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.advert-block__title {
+    color: #fff;
+    font-family: "Open Sans ExtraBold", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.advert-block__des {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color :#fff;
+    margin-top: 133px;
+}
+
+.knife {
+    background-image: url("../img/knife.png");
+}
+
+.pistol {
+    background-image: url("../img/pistol.png");
+}
+
+.trofei {
+    background-image: url("../img/trofei.png");
+}
+
+.stock-block {
+    background-color: #fff;
+    position: relative;
+}
+
+.equip-block {
+    background: rgba(232, 232, 232, 0.3);
+    cursor: pointer;
+}
+
+.content__products > .equip-block__img {
+
+}
+
+.equip-block__img img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    width: 180px;
+    height: 130px;
+}
+
+.equip-block-empty {
+    padding-top: 10px}
+
+
+.equip-block__des {
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Open Sans ExtraBold", sans-serif;
+    font-size: 22px;
+    color: black;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.tactic-des {
+    margin-top: 5px;
+}
+
+.magazine-des {
+    margin-top: 5px;
+}
+
+.sertif-des {
+    margin-top: 5px;
+}
