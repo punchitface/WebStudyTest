@@ -1,0 +1,52 @@
+.header {
+    height: 61px;
+    background-image: url("../img/header_fon.png");
+}
+
+.header__menu {
+    height: 100%;
+    width: 110px;
+}
+
+.header__menu ul {
+    list-style-type: none;
+    height: 100%;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.header__menu ul li:first-child {
+    margin-top: 15px;
+}
+
+.header__menu ul li {
+    box-shadow: 0 2px 0px #e30613;
+    height: 7px;
+    width: 25px;
+    margin-left: 5px;
+}
+
+.header__logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/header_logo.png");
+    width: 150px;
+    height: 100%;
+}
+
+.header__etc {
+    height: 100%;
+    width: 128px;
+}
+
+.header__ect__bay {
+    padding-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.header__etc__search {
+    padding-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}

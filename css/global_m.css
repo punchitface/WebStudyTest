@@ -1,0 +1,54 @@
+/* Импорт остальных css файлов */
+
+@import url("header_m.css");
+@import url("content_m.css");
+@import url("footer_m.css");
+
+/* Шрифты */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans ExtraBold";
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans SemiBold";
+    src: url("../fonts/OpenSans-Semibold.ttf");
+}
+
+/* Освновные стили */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 414px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.container__block {
+   border-bottom: 1px solid;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
